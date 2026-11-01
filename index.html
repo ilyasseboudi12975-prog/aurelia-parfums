@@ -1,0 +1,81 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AURELIA PARFUMS</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#111;color:white;font-family:Arial,sans-serif}
+header{padding:22px;text-align:center;border-bottom:1px solid #a98746}
+.logo{color:#d9b56b;font-size:30px;letter-spacing:5px;font-weight:bold}
+nav{padding:15px;text-align:center}
+nav a{color:#d9b56b;text-decoration:none;margin:12px}
+.hero{text-align:center;padding:75px 15px;background:linear-gradient(#0009,#000b),url('https://images.unsplash.com/photo-1594035910387-fea47794261f?w=1200') center/cover}
+h1{color:#e2c17c;font-size:36px}
+.hero p{font-size:17px}
+.btn{display:inline-block;background:#c6a15b;color:#111;padding:13px 25px;text-decoration:none;border-radius:4px;font-weight:bold}
+section{padding:35px 18px;text-align:center}
+h2{color:#d9b56b}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;max-width:1000px;margin:auto}
+.product{background:#202020;padding:15px;border:1px solid #66502d;border-radius:8px}
+.product img{width:100%;height:220px;object-fit:cover;border-radius:5px}
+.price{color:#e2c17c;font-size:20px}
+footer{padding:25px;text-align:center;background:#080808;color:#d9b56b}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">AURELIA</div>
+<div>PARFUMS</div>
+</header>
+<nav>
+<a href="#accueil">Accueil</a>
+<a href="#collection">Collection</a>
+<a href="#contact">Contact</a>
+</nav>
+<div class="hero" id="accueil">
+<h1>L'ÉLÉGANCE A SON PARFUM</h1>
+<p>Découvrez notre collection de parfums raffinés.</p>
+<a class="btn" href="#collection">DÉCOUVRIR</a>
+</div>
+<section id="collection">
+<h2>NOTRE COLLECTION</h2>
+<div class="products">
+<div class="product">
+<img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=500" alt="Parfum élégant">
+<h3>Parfum Élégance</h3>
+<p>Une fragrance inoubliable.</p>
+<p class="price">Prix à définir</p>
+<a class="btn" href="https://wa.me/212600000000">Commander</a>
+</div>
+<div class="product">
+<img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=500" alt="Parfum luxe">
+<h3>Parfum Prestige</h3>
+<p>Le luxe dans chaque goutte.</p>
+<p class="price">Prix à définir</p>
+<a class="btn" href="https://wa.me/212600000000">Commander</a>
+</div>
+<div class="product">
+<img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=500" alt="Parfum collection">
+<h3>Parfum Signature</h3>
+<p>Affirmez votre personnalité.</p>
+<p class="price">Prix à définir</p>
+<a class="btn" href="https://wa.me/212600000000">Commander</a>
+</div>
+</div>
+</section>
+<section id="contact">
+<h2>CONTACTEZ-NOUS</h2>
+<p>Une question ou une commande ? Contactez-nous sur WhatsApp.</p>
+<a class="btn" href="https://wa.me/212600000000">WHATSAPP</a>
+</section>
+<footer>
+AURELIA PARFUMS © 2026
+<p>L'élégance dans chaque goutte.</p>
+</footer>
+</body>
+</html>
+
